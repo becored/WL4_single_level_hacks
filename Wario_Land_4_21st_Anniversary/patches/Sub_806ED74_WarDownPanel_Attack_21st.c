@@ -321,15 +321,6 @@ char SE;
 //char undefined;
 };
 
-// My variables (perhaps unused in original)
-#define crystal_Tflg (*(volatile unsigned char*) 0x3006F0E)
-#define dashAttackFlag (*(volatile unsigned char*) 0x3006F0F)
-#define airAttackNum (*(volatile unsigned char*) 0x3006F10)
-#define airAttackStat (*(volatile unsigned char*) 0x3006F11)
-#define airJumpNum (*(volatile unsigned char*) 0x3006F12)
-#define aFlipFlag (*(volatile unsigned char*) 0x3006F13)
-#define hFlipFlag (*(volatile unsigned char*) 0x3006F14)
-
 int MC_Sub_806ED74_WarDownPanel_Attack(unsigned short Ypos,unsigned short Xpos)
 {
   char v2;
